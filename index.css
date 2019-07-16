@@ -1,0 +1,179 @@
+
+/* Global */
+
+*{
+	margin:0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+
+/* Main */
+
+.container{
+	height: 150vh;
+	width: auto 0;
+	background-color: #F8F8F8;	
+}
+
+
+/* Nav Bar*/
+
+.nav{
+	background-color: black;
+	color: white;
+	display: block;
+	padding:8px;
+	transition: 0.4s;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px 5px;
+}
+
+.nav ul{
+	list-style: none;
+	text-align: center;
+	word-spacing: 4.5em;
+	padding-left: 47px;
+	margin: 0;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #F8F8F8;
+	display: block;
+	padding: 5px;
+}
+
+.nav a:hover{
+	color: #999999;
+	transition: 0.4s;
+}
+	
+
+/* Search Bar */
+
+input{
+	background-color: black;
+	border:none;
+	padding-right: 5px;
+}
+
+
+input[type=search]{
+	color: white;	
+	outline-style: none;
+}
+
+
+/* Headings link Image */
+
+.headings{
+	text-align: center;
+	padding-top: 85px;
+}
+
+.headings h1{
+	padding-top: 45px;
+	font-size: 56px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.headings h2{
+	font-size: 26px;	
+	padding-bottom: 10px;
+}
+
+
+.parent-link{
+	text-align: center;
+}
+
+.link1{
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 60px;
+	font-size: 20px;
+}
+
+.link2{
+	display: inline-block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 60px;
+	font-size: 20px;
+}
+
+
+.link1 a{
+	text-decoration: none;
+	color: #0072E3;
+	text-shadow: 2px 2px 2px 5px #2B95FF;
+	font-family: 'Catamaran', sans-serif;
+	font-size:22px;
+	font-weight: bolder;
+}
+
+.link1 a:hover{
+	text-decoration: underline;
+}
+
+
+.link2 a{
+	padding-left: 20px;
+	text-decoration: none;
+	color: #0072E3;
+	text-shadow: 2px 2px 2px 5px #2B95FF;
+	font-family: 'Catamaran', sans-serif;
+	font-size:22px;
+	font-weight: bolder;
+}
+
+.link2 a:hover{
+	text-decoration: underline;
+}
+
+.image{
+	position: relative;
+	text-align: center;
+}
+
+
+
+/* Sticky Nav */
+
+/* z-index nav on top */
+
+
+
+.nav {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.nav + .content {
+  padding-top: 60px;
+}
+
+
+
+/* Footer */
+
+.main-footer{
+	text-align: center;
+	background-color: #F8F8F8;
+	padding: 15px;
+}
+
+
